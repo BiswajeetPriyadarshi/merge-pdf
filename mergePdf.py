@@ -1,6 +1,6 @@
 import PyPDF2
-pdf1File=open("/home/sherlock/Documents/holidaay.pdf","rb")
-pdf2File=open("/home/sherlock/Documents/HOLIDAY.pdf","rb")
+pdf1File=open("pdfFile1.pdf","rb")  
+pdf2File=open("pdfFile2.pdf","rb")
 pdf1Reader = PyPDF2.PdfFileReader(pdf1File)
 pdf2Reader = PyPDF2.PdfFileReader(pdf2File)
 pdfWriter = PyPDF2.PdfFileWriter()
